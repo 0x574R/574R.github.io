@@ -1,0 +1,12 @@
+{
+  "name": "pages-tailwind",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/tailwind.css -o ./assets/main.css --minify",
+    "build:jekyll": "bundle exec jekyll build -d _site",
+    "build": "npm run build:css && npm run build:jekyll"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}

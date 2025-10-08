@@ -1,0 +1,13 @@
+title: "My blog"
+description: "Notes, ideas, and projects"
+# Theme maintained by GitHub Pages
+theme: minima
+
+# Useful plugins supported by GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Adjust this when you add a custom domain
+url: "https://<your-username>.github.io"
